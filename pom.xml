@@ -33,6 +33,23 @@
 		</dependency>
 	</dependencies>
 	
+	
+<distributionManagement>
+
+<repository>
+<id>nexus</id>
+<name>javaproject Release</name>
+<url>http://13.127.192.55:8081/repository/javaproject-release/</url>
+</repository>
+
+<snapshotRepository>
+<id>nexus</id>
+<name>javaproject Snapshot</name>
+<url>http://13.127.192.55:8081/repository/java-snap/</url>
+</snapshotRepository>
+
+</distributionManagement>
+	
 
 
 	<build>
